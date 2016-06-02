@@ -34,21 +34,24 @@
         <h1>Triangle Tracker</h1>
       </header>
       <h2>Enter the three triangle side lengths</h2>
-        <form>
-          <div class="form-group">
+        <form id="triangle-form">
+          <div class="form-group side1">
             <label for="side1">First side length</label>
-            <input type="number" id="side1" placeholder="Enter a number">
+            <input type="number" class="form-control" id="side1" placeholder="Enter a number">
           </div>
-          <div class="form-group">
+          <div class="form-group side2">
             <label for="side1">Second side length</label>
-            <input type="number" id="side2" placeholder="Enter a number">
+            <input type="number" class="form-control"  id="side2" placeholder="Enter a number">
           </div>
-          <div class="form-group">
+          <div class="form-group side3">
             <label for="side1">Third side length</label>
-            <input type="number" id="side3" placeholder="Enter a number">
+            <input type="number" class="form-control" id="side3" placeholder="Enter a number">
           </div>
           <button type="submit" name="button">Am I a triangle?</button>
         </form>
+        <div class="output">
+
+        </div>
       <footer>
         <p>&copy; 2016 Epicodus Pair Project, Inc.</p>
       </footer>
