@@ -1,10 +1,10 @@
-# Political Survey
+# Triangle Tracker
 
 #### By _**Sky Rousse, Kevin VanEvery**_
 
 ## Description
 
-__More practice with JS / jQuery using conditionals and calculations to deliver various possible results. In this case, whether you're a better match with Justin Beiber, or Dolly Parton.__
+__More practice with JS. Write functions to determine the type of triangle given the lengths of each side.__
 
 ## Setup/Installation Requirements
 
